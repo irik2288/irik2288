@@ -1,0 +1,117 @@
+body{
+    
+    background:url(https://sotni.ru/wp-content/uploads/2023/08/fon-gradient-491.webp) ;
+    background-size:900pxpx;
+}
+@font-face {
+  font-family:"montserrat";
+  src: url("Montserrat-ThinItalic.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+}
+.nawbar{
+    width: 100%;
+    right:70px ;
+   
+    display: block;
+
+    }
+    .nawbar .conteiner{
+height:inherit;
+display: flex;
+justify-content: space-between;
+align-items: center;
+    }
+    .nawbar-menu{
+  display:inline-block;
+  list-style-type:none;
+padding-left: 15px;
+margin-bottom: 10px;
+    }
+    .nawbar-menu li {
+        display:inline-flex;
+        text-align:left; 
+        color: #4d42423b;
+      
+    }
+    .nawbar-menu li a {
+        display:inline-block;
+        color: #a53e3e;
+        
+        text-decoration: none;
+        font-size: 17px;
+        padding: 8px;   
+        color: rgb(255, 255, 255);
+        border: 1px solid;
+        font-family: 'Courier New', Courier, monospace;
+        margin-right: 19px;
+        
+        }
+      .nawbar-map{
+        display: flex;
+        flex-flow: row nowrap;
+     
+      }
+      .nawbar-brand{
+        font-weight: 700;
+        font-size: 28px;
+        text-decoration: none;
+        color:#2e74ad;
+        display: block;
+        padding: 20px;
+        font-family:montserrat;
+      }
+      .nawbar-brand:hover{
+        color:#93ff07f8;
+        text-decoration: none;
+      }
+      .nawbar-menu li a:hover{
+     color:#91ff00;
+      }
+      @media (max-width: 983px){
+        .nawbar-menu li a {
+          display: block;
+          font-size: 13px;
+          margin-right:10% ;
+          padding:1px ;
+          }
+          .nawbar-brand{
+            font-size: 20px;
+             padding: 1px;
+             text-align: left;}
+  
+        }
+        @media (max-width: 670px){
+          .nawbar-menu li a{
+          font-size:10px ;
+         }
+        }
+
+      
+      @media (max-width:470px){
+        .nawbar{
+          box-shadow:5 2px 5px rgb(62, 241, 173) ;
+                  }.nawbar-brand{
+                    font-size: 17px;
+                     padding: 1px;
+                     text-align: left;
+          }
+        .nawbar-menu li a{
+font-size: 10px;
+
+        }
+
+      }
+      body.dark-theme {
+        color: #eeeeee;
+        background: #121212;
+      }
+    .legend{
+      color: #eeeeee;
+    }
+    .form-group{
+      color: #eeeeee;
+    }
+      
+     
+      
