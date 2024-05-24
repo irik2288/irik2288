@@ -1,117 +1,251 @@
 body{
-    
-    background:url(https://sotni.ru/wp-content/uploads/2023/08/fon-gradient-491.webp) ;
-    background-size:900pxpx;
+    background: black;
+}
+header{
+    position: absolute;
+    background:#EA592A;
+    height: 75px;
+   margin-top: -17px;
+    padding-bottom: 10px;
+    margin-left: -6px;
+    margin-right: -8px;
+   border: 4px solid rgba(87, 72, 72, 1);
+    left: 0px;
+    width: 84em;
+z-index: 2;
+
+}
+ul{
+    padding-top: 7px;
+    margin-left: 10px;
+
+}
+a{
+    text-decoration: none;
+    color: #f8f9fa;
+    margin-left: 135px;
+    font-size: 35px;
+    padding-bottom:40px;
+   margin-right: 100px;
+}
+.image-container{
+    position: relative;
+    right: 10px;
+    top: -0px;
+color: #f8f9fa;
+    z-index: 1;
+}
+.img{
+    width: 1352px;
+    height: 650px;
+    left: -30px;
+    bottom: -10px;
+    -webkit-filter: blur(5px) brightness(20%);
+}
+.ssa{
+    position: absolute;
+    top: 135px;
+    left: 90px;
+    font-size: 100px;
+    font-family: jojo;
+}
+.buton{
+    margin-left: 10px;
+    position: relative;
+    font-weight: 700;
+    color: black;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: linear-gradient(153deg, #fc8b5e 0%, #965338 100%);
+    border: none;
+    border-radius: 30px;
+    padding-top: 6px;
+    padding-bottom: 8px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 30px;
+    top: -150px;
+    left: 900px;
+    z-index: 3;
+}
+/**
+.wee{
+ width: 45em;
+    height: 20em;
+    border:4px solid rgba(49, 176, 153, 1);
+    border-radius: 70px;
+}
+.text{
+    position: relative;
+    font-family:jojo;
+    top: -340px;
+    left: 50px;
+    font-size: 100px;
+    color: white;
+}
+.text2{
+    position: relative;
+    top: -850px;
+    left: 520px;
+    font-family: jojo;
+    font-size: 100px;
+    color: white;
+}
+.svg{
+position:absolute;
+    top: 900px;
+    left: 730px;
+z-index: 2;
+}
+.ram{
+    position: relative;
+    top: -190px;
+    left: 500px;
+    width: 50em;
+    height: 650px;
+    border:4px solid rgba(83, 255, 80, 1);
+    border-radius: 70px;
+    z-index: 1;
+}
+
+.imge1{
+    position: relative;
+    width: 344px;
+    height: 250px;
+    border-radius: 12px;
+    top: -700px;
+}
+.imge2{
+    position: relative;
+    width: 344px;
+    height: 250px;
+    border-radius: 12px;
+    top: -700px;
+    left: 100px;
+}
+.imge3{
+    position: relative;
+    width: 344px;
+    height: 250px;
+    border-radius: 12px;
+    top: -700px;
+    left: 200px;
+
+}
+.ks2{
+    position: relative;
+    width: 344px;
+    height: 100px;
+    background: rgba(59, 104, 58, 1);
+    border-radius: 12px;
+    justify-content: space-between 10px;
+    top: -725px;
+    left: 900px;
+
+}
+.ks3{
+    position: relative;
+    width: 344px;
+    height: 100px;
+    background: rgba(68, 148, 129, 1);
+    border-radius: 12px;
+    justify-content: space-between 10px;
+    top: -845px;
+    left: 450px;
+}
+.ks4{
+    position: relative;
+    width: 344px;
+    height: 100px;
+    background:rgba(72, 85, 46, 1) ;
+    border-radius: 12px;
+    justify-content: space-between 10px;
+    top: -970px;
+}
+.exe{
+    position: relative;
+    left: 15px;
+    top: 35px;
+    font-family: jojo;
+    font-size: 25px;
+}
+.exe2{
+    position: relative;
+    left: 15px;
+    top: 30px;
+    font-family: jojo;
+    font-size: 25px;
+}
+.exe3{
+    position: relative;
+    left: 30px;
+    top: 30px;
+    font-family: jojo;
+    font-size: 25px;
+}
+**/
+.okno3{
+    position: relative;
+    width: 375px;
+    height: 425px;
+    background:#EA592A;
+    border-radius: 20px;
+    bottom:950px;
+    left: 900px;
+}
+.okno{
+    position: relative;
+    width: 375px;
+    height: 425px;
+    background:#EA592A;
+    border-radius: 20px;
+    top:-473px;
+    left: 450px;
+}
+.okno1{
+    width: 375px;
+    height: 425px;
+    background: rgba(237, 131, 88, 1);
+    border-radius: 20px;
+}
+.no{
+    font-size: 48px;
+    font-family:j;
+    font-weight: 900;
+   padding-top: 65px;
+    padding-left: 45px;
+}
+.bita{
+    width: 292px;
+    height: 67px;
+    border-radius: 30px 0px 30px 0px;
+    background: white;
+    margin-top: 109px;
+    margin-left: 45px;
+}
+.yes{
+    position: relative;
+    font-size: 36px;
+ font-family: j;
+    font-weight: 700;
+    margin-left:60px;
+    bottom: -10px;
+    color: black;
 }
 @font-face {
-  font-family:"montserrat";
-  src: url("Montserrat-ThinItalic.ttf") format("truetype"); 
-  font-style: normal; 
-  font-weight: normal; 
+    font-family: "J";
+    src: url("Inter-VariableFont_slnt,wght.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
 }
-.nawbar{
-    width: 100%;
-    right:70px ;
-   
-    display: block;
-
-    }
-    .nawbar .conteiner{
-height:inherit;
-display: flex;
-justify-content: space-between;
-align-items: center;
-    }
-    .nawbar-menu{
-  display:inline-block;
-  list-style-type:none;
-padding-left: 15px;
-margin-bottom: 10px;
-    }
-    .nawbar-menu li {
-        display:inline-flex;
-        text-align:left; 
-        color: #4d42423b;
-      
-    }
-    .nawbar-menu li a {
-        display:inline-block;
-        color: #a53e3e;
-        
-        text-decoration: none;
-        font-size: 17px;
-        padding: 8px;   
-        color: rgb(255, 255, 255);
-        border: 1px solid;
-        font-family: 'Courier New', Courier, monospace;
-        margin-right: 19px;
-        
-        }
-      .nawbar-map{
-        display: flex;
-        flex-flow: row nowrap;
-     
-      }
-      .nawbar-brand{
-        font-weight: 700;
-        font-size: 28px;
-        text-decoration: none;
-        color:#2e74ad;
-        display: block;
-        padding: 20px;
-        font-family:montserrat;
-      }
-      .nawbar-brand:hover{
-        color:#93ff07f8;
-        text-decoration: none;
-      }
-      .nawbar-menu li a:hover{
-     color:#91ff00;
-      }
-      @media (max-width: 983px){
-        .nawbar-menu li a {
-          display: block;
-          font-size: 13px;
-          margin-right:10% ;
-          padding:1px ;
-          }
-          .nawbar-brand{
-            font-size: 20px;
-             padding: 1px;
-             text-align: left;}
-  
-        }
-        @media (max-width: 670px){
-          .nawbar-menu li a{
-          font-size:10px ;
-         }
-        }
-
-      
-      @media (max-width:470px){
-        .nawbar{
-          box-shadow:5 2px 5px rgb(62, 241, 173) ;
-                  }.nawbar-brand{
-                    font-size: 17px;
-                     padding: 1px;
-                     text-align: left;
-          }
-        .nawbar-menu li a{
-font-size: 10px;
-
-        }
-
-      }
-      body.dark-theme {
-        color: #eeeeee;
-        background: #121212;
-      }
-    .legend{
-      color: #eeeeee;
-    }
-    .form-group{
-      color: #eeeeee;
-    }
-      
-     
-      
+@font-face {
+    font-family: "Jojo";
+    src: url("overdozesans.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Jo";
+    src: url("Literata-Italic-VariableFont_opsz,wght.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
